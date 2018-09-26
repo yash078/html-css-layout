@@ -1,27 +1,38 @@
-* {
+html {
     font-family: sans-serif;
+    font-size: 16px;
+    margin: 10px;
 }
 
 body {
-    margin-left: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
 }
 
 nav {
     background: hsl(210, 50%, 50%);
     border-bottom: 10pt solid black;
-    padding: 5pt 0pt;
 }
 
+#navLinks {
+    padding:0px;
+    margin:10px 0px;
+}
 #navLinks li {
     display: inline;
-    margin-right: 40px;
-    font-size: 1rem;
+    margin-right: 100px;
+    list-style-type:none;
+    padding: 0px !important;
 }
 
 #navLinks a {
     color: white;
     font-size: 2rem;
     text-decoration: none;
+    padding: 0px !important;
 }
 
 #navLinks a:hover {
@@ -30,10 +41,9 @@ nav {
 
 #nameDiv {
     height: 350px;
-    background-image: url("https://picsum.photos/g/200/100/?random");
+    background-image: url("https://picsum.photos/1200/600/?random");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 10pt 0pt;
 }
 
 h1 {
@@ -47,22 +57,24 @@ h2 {
     color: hsl(211, 50%, 80%);
     text-shadow: 2px 2px black;
     font-size: 4rem;
-    margin-top: 0px;
-}
-
-h3, h4 {
-    color: hsl(210, 50%, 60%);
 }
 
 h3 {
+    color: hsl(210, 50%, 60%);
     font-size: 3rem;
 }
 
 h4 {
+    color: hsl(210, 50%, 60%);
     font-size: 1.5rem;
 }
 
-
 p {
     font-size: 1rem;
+    line-height: 1.6;
+}
+
+main ul {
+    list-style-position: inside;
+    line-height: 1.5;
 }
